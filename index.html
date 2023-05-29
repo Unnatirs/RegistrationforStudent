@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Student Information</header>
+    <table>
+        <td>
+            <form action="" autocomplete="off" onsubmit="onformSubmit()">
+                <div>
+                    <label for="studentRoll">Roll No</label>
+                    <input type="text" name="studentRoll" id="studentRoll">
+                </div>
+                <div>
+                    <label for="studentName">Name</label>
+                    <input type="text" name="studentName" id="studentName">
+                </div>
+                <div>
+                    <label for="studentAge">Age</label>
+                    <input type="number" name="studentAge" id="studentAge">
+                </div>
+                <div>
+                    <label for="studentMarks"> Marks</label>
+                    <input type="number" name="studentMarks" id="studentMarks">
+                </div>
+                <div class="form-action-button">
+                    <input type="submit" value="submit">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+            <td>
+                <table class="list" id="storeList">
+                    <thead>
+                        <tr>
+                            <th>Roll No</th>
+                            <th>Nmae</th>
+                            <th>Age</th>
+                            <th>Marks</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </td>
+    </table>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
